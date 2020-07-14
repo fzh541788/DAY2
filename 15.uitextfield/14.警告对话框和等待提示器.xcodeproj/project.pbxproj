@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EBF14424BD56A4003B723A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF14324BD56A4003B723A /* AppDelegate.m */; };
+		60EBF14724BD56A4003B723A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF14624BD56A4003B723A /* SceneDelegate.m */; };
+		60EBF14A24BD56A4003B723A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF14924BD56A4003B723A /* ViewController.m */; };
+		60EBF14D24BD56A4003B723A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EBF14B24BD56A4003B723A /* Main.storyboard */; };
+		60EBF14F24BD56A5003B723A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EBF14E24BD56A5003B723A /* Assets.xcassets */; };
+		60EBF15224BD56A5003B723A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EBF15024BD56A5003B723A /* LaunchScreen.storyboard */; };
+		60EBF15524BD56A5003B723A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF15424BD56A5003B723A /* main.m */; };
+		60EBF15F24BD56A5003B723A /* _4____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF15E24BD56A5003B723A /* _4____________Tests.m */; };
+		60EBF16A24BD56A5003B723A /* _4____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF16924BD56A5003B723A /* _4____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60EBF15B24BD56A5003B723A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EBF13724BD56A4003B723A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EBF13E24BD56A4003B723A;
+			remoteInfo = "14.警告对话框和等待提示器";
+		};
+		60EBF16624BD56A5003B723A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EBF13724BD56A4003B723A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EBF13E24BD56A4003B723A;
+			remoteInfo = "14.警告对话框和等待提示器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60EBF13F24BD56A4003B723A /* 14.警告对话框和等待提示器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14.警告对话框和等待提示器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBF14224BD56A4003B723A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60EBF14324BD56A4003B723A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60EBF14524BD56A4003B723A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		60EBF14624BD56A4003B723A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		60EBF14824BD56A4003B723A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60EBF14924BD56A4003B723A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60EBF14C24BD56A4003B723A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60EBF14E24BD56A5003B723A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EBF15124BD56A5003B723A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60EBF15324BD56A5003B723A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EBF15424BD56A5003B723A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60EBF15A24BD56A5003B723A /* 14.警告对话框和等待提示器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14.警告对话框和等待提示器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBF15E24BD56A5003B723A /* _4____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4____________Tests.m"; sourceTree = "<group>"; };
+		60EBF16024BD56A5003B723A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EBF16524BD56A5003B723A /* 14.警告对话框和等待提示器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14.警告对话框和等待提示器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBF16924BD56A5003B723A /* _4____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4____________UITests.m"; sourceTree = "<group>"; };
+		60EBF16B24BD56A5003B723A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EBF13C24BD56A4003B723A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF15724BD56A5003B723A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF16224BD56A5003B723A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EBF13624BD56A4003B723A = {
+			isa = PBXGroup;
+			children = (
+				60EBF14124BD56A4003B723A /* 14.警告对话框和等待提示器 */,
+				60EBF15D24BD56A5003B723A /* 14.警告对话框和等待提示器Tests */,
+				60EBF16824BD56A5003B723A /* 14.警告对话框和等待提示器UITests */,
+				60EBF14024BD56A4003B723A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EBF14024BD56A4003B723A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EBF13F24BD56A4003B723A /* 14.警告对话框和等待提示器.app */,
+				60EBF15A24BD56A5003B723A /* 14.警告对话框和等待提示器Tests.xctest */,
+				60EBF16524BD56A5003B723A /* 14.警告对话框和等待提示器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EBF14124BD56A4003B723A /* 14.警告对话框和等待提示器 */ = {
+			isa = PBXGroup;
+			children = (
+				60EBF14224BD56A4003B723A /* AppDelegate.h */,
+				60EBF14324BD56A4003B723A /* AppDelegate.m */,
+				60EBF14524BD56A4003B723A /* SceneDelegate.h */,
+				60EBF14624BD56A4003B723A /* SceneDelegate.m */,
+				60EBF14824BD56A4003B723A /* ViewController.h */,
+				60EBF14924BD56A4003B723A /* ViewController.m */,
+				60EBF14B24BD56A4003B723A /* Main.storyboard */,
+				60EBF14E24BD56A5003B723A /* Assets.xcassets */,
+				60EBF15024BD56A5003B723A /* LaunchScreen.storyboard */,
+				60EBF15324BD56A5003B723A /* Info.plist */,
+				60EBF15424BD56A5003B723A /* main.m */,
+			);
+			path = "14.警告对话框和等待提示器";
+			sourceTree = "<group>";
+		};
+		60EBF15D24BD56A5003B723A /* 14.警告对话框和等待提示器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60EBF15E24BD56A5003B723A /* _4____________Tests.m */,
+				60EBF16024BD56A5003B723A /* Info.plist */,
+			);
+			path = "14.警告对话框和等待提示器Tests";
+			sourceTree = "<group>";
+		};
+		60EBF16824BD56A5003B723A /* 14.警告对话框和等待提示器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				60EBF16924BD56A5003B723A /* _4____________UITests.m */,
+				60EBF16B24BD56A5003B723A /* Info.plist */,
+			);
+			path = "14.警告对话框和等待提示器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EBF13E24BD56A4003B723A /* 14.警告对话框和等待提示器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EBF16E24BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器" */;
+			buildPhases = (
+				60EBF13B24BD56A4003B723A /* Sources */,
+				60EBF13C24BD56A4003B723A /* Frameworks */,
+				60EBF13D24BD56A4003B723A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14.警告对话框和等待提示器";
+			productName = "14.警告对话框和等待提示器";
+			productReference = 60EBF13F24BD56A4003B723A /* 14.警告对话框和等待提示器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EBF15924BD56A5003B723A /* 14.警告对话框和等待提示器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EBF17124BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器Tests" */;
+			buildPhases = (
+				60EBF15624BD56A5003B723A /* Sources */,
+				60EBF15724BD56A5003B723A /* Frameworks */,
+				60EBF15824BD56A5003B723A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EBF15C24BD56A5003B723A /* PBXTargetDependency */,
+			);
+			name = "14.警告对话框和等待提示器Tests";
+			productName = "14.警告对话框和等待提示器Tests";
+			productReference = 60EBF15A24BD56A5003B723A /* 14.警告对话框和等待提示器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60EBF16424BD56A5003B723A /* 14.警告对话框和等待提示器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EBF17424BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器UITests" */;
+			buildPhases = (
+				60EBF16124BD56A5003B723A /* Sources */,
+				60EBF16224BD56A5003B723A /* Frameworks */,
+				60EBF16324BD56A5003B723A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EBF16724BD56A5003B723A /* PBXTargetDependency */,
+			);
+			name = "14.警告对话框和等待提示器UITests";
+			productName = "14.警告对话框和等待提示器UITests";
+			productReference = 60EBF16524BD56A5003B723A /* 14.警告对话框和等待提示器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EBF13724BD56A4003B723A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = young_jerry;
+				TargetAttributes = {
+					60EBF13E24BD56A4003B723A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					60EBF15924BD56A5003B723A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 60EBF13E24BD56A4003B723A;
+					};
+					60EBF16424BD56A5003B723A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 60EBF13E24BD56A4003B723A;
+					};
+				};
+			};
+			buildConfigurationList = 60EBF13A24BD56A4003B723A /* Build configuration list for PBXProject "14.警告对话框和等待提示器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EBF13624BD56A4003B723A;
+			productRefGroup = 60EBF14024BD56A4003B723A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EBF13E24BD56A4003B723A /* 14.警告对话框和等待提示器 */,
+				60EBF15924BD56A5003B723A /* 14.警告对话框和等待提示器Tests */,
+				60EBF16424BD56A5003B723A /* 14.警告对话框和等待提示器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EBF13D24BD56A4003B723A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EBF15224BD56A5003B723A /* LaunchScreen.storyboard in Resources */,
+				60EBF14F24BD56A5003B723A /* Assets.xcassets in Resources */,
+				60EBF14D24BD56A4003B723A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF15824BD56A5003B723A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF16324BD56A5003B723A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EBF13B24BD56A4003B723A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EBF14A24BD56A4003B723A /* ViewController.m in Sources */,
+				60EBF14424BD56A4003B723A /* AppDelegate.m in Sources */,
+				60EBF15524BD56A5003B723A /* main.m in Sources */,
+				60EBF14724BD56A4003B723A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF15624BD56A5003B723A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EBF15F24BD56A5003B723A /* _4____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EBF16124BD56A5003B723A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EBF16A24BD56A5003B723A /* _4____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EBF15C24BD56A5003B723A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EBF13E24BD56A4003B723A /* 14.警告对话框和等待提示器 */;
+			targetProxy = 60EBF15B24BD56A5003B723A /* PBXContainerItemProxy */;
+		};
+		60EBF16724BD56A5003B723A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EBF13E24BD56A4003B723A /* 14.警告对话框和等待提示器 */;
+			targetProxy = 60EBF16624BD56A5003B723A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60EBF14B24BD56A4003B723A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EBF14C24BD56A4003B723A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60EBF15024BD56A5003B723A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EBF15124BD56A5003B723A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EBF16C24BD56A5003B723A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60EBF16D24BD56A5003B723A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60EBF16F24BD56A5003B723A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60EBF17024BD56A5003B723A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60EBF17224BD56A5003B723A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/14.警告对话框和等待提示器.app/14.警告对话框和等待提示器";
+			};
+			name = Debug;
+		};
+		60EBF17324BD56A5003B723A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/14.警告对话框和等待提示器.app/14.警告对话框和等待提示器";
+			};
+			name = Release;
+		};
+		60EBF17524BD56A5003B723A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "14.警告对话框和等待提示器";
+			};
+			name = Debug;
+		};
+		60EBF17624BD56A5003B723A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14.警告对话框和等待提示器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzh541788.-4------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "14.警告对话框和等待提示器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EBF13A24BD56A4003B723A /* Build configuration list for PBXProject "14.警告对话框和等待提示器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBF16C24BD56A5003B723A /* Debug */,
+				60EBF16D24BD56A5003B723A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EBF16E24BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBF16F24BD56A5003B723A /* Debug */,
+				60EBF17024BD56A5003B723A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EBF17124BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBF17224BD56A5003B723A /* Debug */,
+				60EBF17324BD56A5003B723A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EBF17424BD56A5003B723A /* Build configuration list for PBXNativeTarget "14.警告对话框和等待提示器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBF17524BD56A5003B723A /* Debug */,
+				60EBF17624BD56A5003B723A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EBF13724BD56A4003B723A /* Project object */;
+}
